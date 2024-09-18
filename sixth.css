@@ -1,0 +1,76 @@
+.sixth-p{
+  margin-left: 67px;
+  font-size: 16px;
+  color: rgb(200, 193, 193);
+  font-weight: 400;
+}
+.under{
+  text-decoration: underline;
+}
+.grid {
+  margin-left: 68px;
+  margin-top: 52px;
+  display: grid;
+  grid-template-columns: 146px 155px 146px;
+  column-gap: 220px;
+
+  margin-bottom: 40px;
+}
+
+.grids {
+  color: rgb(200, 193, 193);
+ 
+}
+.grid-p{
+  margin-bottom: 15px;
+  text-decoration: underline;
+  font-size: 14px;
+  font-weight: 400;
+}
+.option-s {
+  position: relative;
+  display: inline-block; /* Ensure it wraps the select element tightly */
+  margin-left: 67px;
+  margin-bottom: 50px;
+
+}
+
+.option-c {
+  height: 32px;
+  width: 130px; /* Make the select take up the full width of the container */
+  background-color: black;
+  color: white;
+  font-weight: 300;
+  padding-left: 30px;
+  padding-right: 30px; /* Add some padding to the right for the arrow */
+  border: 1px solid rgb(117, 116, 116); /* Ensure border color is applied */
+  border-radius: 5px;
+  font-size: medium;
+  appearance: none; /* Hide default arrow */
+  -webkit-appearance: none; /* Hide default arrow in Safari */
+  -moz-appearance: none; /* Hide default arrow in Firefox */
+}
+
+.option-s::after {
+  content: '\25BC'; /* Unicode for down arrow */
+  font-size: 9px; /* Adjust the size of the arrow */
+  color: rgb(255, 255, 255);
+  position: absolute;
+  right: 10px; /* Position it at the right edge */
+  top: 50%; /* Align it vertically in the middle */
+  transform: translateY(-50%); /* Center the arrow vertically */
+  pointer-events: none; /* Ensure arrow doesn't interfere with click events */
+}
+
+.netflix-p{
+  margin-left: 59px;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 60px;
+}
+.svg-a{
+  position: absolute;
+  top: 8px;
+  left:10px;
+}
+

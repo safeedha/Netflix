@@ -1,0 +1,28 @@
+.four-h2{
+  margin-left: 67px;
+  margin-bottom: 12px;
+}
+.four-sub{
+  width: 1120px;
+  height:82px;
+  background-color: rgb(49, 46, 46);
+  margin-bottom:9px;
+  margin-left: 67px;
+  padding-left: 22px;
+  padding-top: 30px;
+  position: relative;
+  
+}
+.four-p{
+ font-size: 26px;
+}
+.plus{
+  position: absolute;
+  right:20px;
+  top:20px;
+  
+}
+.four-sub:hover{
+  background-color: rgb(66, 65, 65);
+  
+}

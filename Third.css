@@ -1,0 +1,71 @@
+.Third{
+  font-size: 25px;
+  font-weight: 400;
+  margin-left: 70px;
+  margin-bottom: 20px;
+  margin-top:70px;
+  z-index: 10;
+}
+.buttons{
+  margin-left: 70px;
+
+}
+.ind{
+  position: relative;
+  display: inline-block;
+}
+.India {
+  background-color: black;
+  color: white;
+  width: 99px;
+  height: 45px;
+  border-radius: 3px;
+  margin-right: 20px;
+  border: 1px solid rgb(117, 116, 116);
+  padding-left: 7px;
+  font-size: 18px;
+  position: relative; /* Ensure custom arrow is positioned correctly */
+  appearance: none; /* Hide default arrow */
+  -webkit-appearance: none; /* Hide default arrow in Safari */
+  -moz-appearance: none; /* Hide default arrow in Firefox */
+}
+
+.ind::after {
+  content: '\25BC'; /* Unicode for down arrow */
+  font-size: 8px;
+  color: white;
+  position: absolute;
+  right: 33px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none; /* Ensure arrow doesn't interfere with click events */
+}
+.Mov{
+  position: relative;
+  display: inline-block;
+}
+.Movie{
+  background-color: black;
+  color: white;
+  width:120px;
+  height: 45px;
+  border-radius: 4px;
+  border-color:rgb(117, 116, 116);
+  padding-left: 7px;
+  font-size: 18px;
+  position: relative; /* Ensure custom arrow is positioned correctly */
+  appearance: none; /* Hide default arrow */
+  -webkit-appearance: none; /* Hide default arrow in Safari */
+  -moz-appearance: none; /* Hide default arrow in Firefox */
+}
+.Mov::after {
+  content: '\25BC'; /* Unicode for down arrow */
+  font-size: 8px;
+  color: white;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none; /* Ensure arrow doesn't interfere with click events */
+}
+

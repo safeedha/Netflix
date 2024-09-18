@@ -1,0 +1,139 @@
+.header{
+  width: 100%;
+  height:100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,7)),url(image/header-image.png);
+  background-position: center;
+  background-size:cover ;
+  position: relative;
+}
+.Netflix-logo{
+  position: absolute;
+ left:45px;
+ top:20px;
+}
+.logo{
+  width:200;
+  height: 40px;
+}
+.option-b{
+  height: 30px;
+  width:124px;
+  background-color: black;
+  color: white;
+  padding-left: 30px;
+  border-color: rgb(117, 116, 116);
+  border-radius: 5px;
+  font-size: medium;
+  font-size: medium;
+  appearance: none; /* Hide default arrow */
+  -webkit-appearance: none; /* Hide default arrow in Safari */
+  -moz-appearance: none; 
+}
+.option{
+  position: absolute;
+  right:155px;
+   top:20px;
+}
+.option::after {
+  content: '\25BC'; /* Unicode for down arrow */
+  font-size: 9px; /* Adjust the size of the arrow */
+  color: rgb(255, 255, 255);
+  position: absolute;
+  right: 10px; /* Position it at the right edge */
+  top: 50%; /* Align it vertically in the middle */
+  transform: translateY(-50%); /* Center the arrow vertically */
+  pointer-events: none; /* Ensure arrow doesn't interfere with click events */
+}
+.sign{
+  position: absolute;
+  top:20px;
+  right:57px;
+}
+.signin{
+  height: 30px;
+  background-color:  rgb(211, 11, 11);
+  color: white;
+  width:80px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.1s; 
+}
+.signin:hover
+{
+  background-color:rgb(181, 11, 11);
+}
+.signin:active{
+  opacity:0.7;
+}
+.center{
+  position: absolute;
+  top:220px;
+  left:397px;
+  
+
+}
+.head1{
+  font-size: 40px;
+  font-weight: 1000;
+  padding-left: 35px;
+}
+.head-one{
+  padding-left: 47px;
+  margin-bottom: 4px;
+}
+.head2{
+  padding-left: 130px;
+  margin-bottom: 22px;
+  
+}
+
+.email{
+  height:55px;
+  width:347px;
+  background-color: transparent;
+  border-radius:4px ;
+  border-color: gray;
+  border-width: 1px;
+  border-style: solid;
+  margin-right: 2px;
+}
+.head3{
+  margin-bottom: 15px;
+}
+.get {
+  height: 55px;
+  width: 185px;
+  background-color: rgb(211, 11, 11);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  padding-left: 2px; /* Corrected property name */
+  cursor: pointer;
+  transition: background-color 0.1s; 
+}
+.get:hover{
+  background-color: rgb(181, 11, 11);
+}
+.email::placeholder{
+padding-left: 15px;
+font-size: 15px;
+font-weight: 5000;
+color: rgb(200, 193, 193);
+}
+.svg-b{
+  position: absolute;
+  right: 255px;
+  top:26px;
+  z-index: 100;
+}
+
+.arrow {
+  margin-left: 7px;
+ vertical-align: middle;
+}
+
